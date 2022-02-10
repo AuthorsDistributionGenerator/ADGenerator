@@ -1,5 +1,5 @@
 # ADGenerator
-Companion code to the paper [Delabays and Tyloo, *arXiv preprint: 2011.05703* (2022)](arxiv.org/abs/2011.05703)
+Companion code to the paper [Delabays and Tyloo, *arXiv preprint: 2011.05703* (2022)](https://arxiv.org/abs/2011.05703)
 Script generating a distribution of authors in a synthetic journal.
 
 
@@ -37,7 +37,7 @@ Returns the normalization factor such that sum\_k gamma\*k\*Tk = 1 in the functi
 - `generate\_distr(authors::Dict{Int64,Any}, n_year::Int64, ppyear::Int64, ρ0::Float64, amin::Int64=40, amax::Int64=60, savefolder::String="")`
 - `generate_distr(n_year::Int64, ppyear::Int64, ρ0::Float64, amin::Int64=40, amax::Int64=60, savefolder::String="")`
 
-Generates a synthetic list of authors with random number of publications in a synthetic journal. The rule of attribution of an author to a new journal follows the adapted preferential attachment rule described in [Delabays and Tyloo (2022)](arxiv.org/abs/2011.05703). 
+Generates a synthetic list of authors with random number of publications in a synthetic journal. The rule of attribution of an author to a new journal follows the adapted preferential attachment rule described in [Delabays and Tyloo (2022)](https://arxiv.org/abs/2011.05703). 
 
 **INPUT**:\
 `authors`: Dictionary whose keys (Int64) are the authors indices, and values are themselves dictionaries with "String" keys:\
