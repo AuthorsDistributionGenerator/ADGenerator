@@ -2,8 +2,7 @@
 Companion code to the paper [Delabays and Tyloo, *arXiv preprint: 2011.05703* (2022)](https://arxiv.org/abs/2011.05703).
 Script generating a distribution of authors in a synthetic journal.
 
-
-
+[![DOI](https://zenodo.org/badge/457585400.svg)](https://zenodo.org/badge/latestdoi/457585400)
 
 ## List of functions
 - [gamma](#gamma)
