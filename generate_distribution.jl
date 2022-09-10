@@ -4,7 +4,7 @@ using LinearAlgebra, DelimitedFiles
 	generate_distr(authors::Dict{Int64,Any}, n_year::Int64, ppyear::Int64, ρ0::Float64, amin::Int64=40, amax::Int64=60, savefolder::String="")
 	generate_distr(n_year::Int64, ppyear::Int64, ρ0::Float64, amin::Int64=40, amax::Int64=60, savefolder::String="")
 
-Generates a synthetic list of authors with random number of publications in a synthetic journal. The rule of attribution of an author to a new journal follows the adapted preferential attachment rule described in [arxiv.org/abs/2011.05703]. 
+Generates a synthetic list of authors with random number of publications in a synthetic journal. The rule of attribution of an author to a new journal follows the adapted preferential attachment rule described in [Delabaya and Tyloo, Quant. Sci. Studies (2022)]. 
 
 _INPUT_:\\
 `authors`: Dictionary whose keys (Int64) are the authors indices, and values are themselves dictionaries with "String" keys:\\
